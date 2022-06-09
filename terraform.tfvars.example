@@ -1,0 +1,3 @@
+do_token = "generate-token-key-in-digital-ocean-api-panel"
+k8s_name = "foo"
+region = "nyc1"
