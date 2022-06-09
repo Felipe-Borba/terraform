@@ -1,22 +1,25 @@
-Observações
+# Observações
 baixei o terraform no win msm pelo scoop
 
 depois de criar o main.tf e especificar o provider e colocar o token roda
 
-```
-  terraform init
+```bash
+terraform init
 ```
 
 ai depois define o recurso e dale um 
 
-´´´
-  terraform apply
-´´´
+```bash
+terraform apply
+```
 
-para apagar esses recursos da cloud roda 
+## Para apagar esses recursos da cloud 
 
-ps. não tenho certeza se eu sou obrigado a deletar o deploy antes
+*ps. não tenho certeza se eu sou obrigado a deletar o deploy antes*
 
-´´´
-  terraform destroy
-´´´
+> testei e a principio não precisou do `kubectl delete -f deployment.yaml`
+
+
+```bash
+terraform destroy
+```
